@@ -1,6 +1,6 @@
-# QuickSite Pro
+# ContentCreationNI
 
-Professional website design service for trade businesses. Get a stunning website that generates leads in just 7 days.
+Professional website design service for trade businesses in Northern Ireland. Get a stunning website that generates leads in just 7 days.
 
 ## Features
 
@@ -24,7 +24,7 @@ We specialize in creating websites for:
 
 ## Pricing
 
-Professional website package: £2,497
+Professional website package: £650
 - Up to 7 pages
 - Project gallery (up to 50 images)
 - Contact form integration

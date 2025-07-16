@@ -54,7 +54,7 @@ contactForm.addEventListener('submit', (e) => {
     const data = Object.fromEntries(formData);
     
     // Create message with all form details
-    const message = `New QuickSite Pro Enquiry:\n\nBusiness: ${data.business}\nName: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'Not provided'}\nBusiness Type: ${data['business-type']}\nMessage: ${data.message}`;
+    const message = `New ContentCreationNI Enquiry:\n\nBusiness: ${data.business}\nName: ${data.name}\nEmail: ${data.email}\nPhone: ${data.phone || 'Not provided'}\nBusiness Type: ${data['business-type']}\nMessage: ${data.message}`;
     
     // For demo purposes, just show an alert
     // In production, you would integrate with your preferred contact method
