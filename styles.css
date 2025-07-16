@@ -259,6 +259,101 @@ body {
     object-fit: cover;
 }
 
+/* What You Get Section */
+.what-you-get {
+    padding: 5rem 0;
+    background: var(--gray-50);
+}
+
+.feature-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.feature-detail {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: var(--transition);
+}
+
+.feature-detail:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.feature-detail-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.feature-detail-header i {
+    font-size: 2rem;
+}
+
+.feature-detail-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.feature-detail-content {
+    padding: 2rem;
+}
+
+.feature-detail-content h4 {
+    color: var(--dark-color);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.feature-detail-content ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.feature-detail-content li {
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    color: var(--gray-600);
+    line-height: 1.6;
+}
+
+.feature-detail-content li i {
+    color: var(--success-color);
+    margin-top: 0.25rem;
+    flex-shrink: 0;
+}
+
+.feature-stat {
+    background: var(--gray-100);
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.stat-text {
+    color: var(--gray-600);
+    font-size: 0.875rem;
+}
+
 /* Features Section */
 .features {
     padding: 5rem 0;
@@ -733,5 +828,17 @@ body {
     
     .browser-mockup {
         margin-top: 2rem;
+    }
+    
+    .feature-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .feature-detail-header {
+        padding: 1.5rem;
+    }
+    
+    .feature-detail-content {
+        padding: 1.5rem;
     }
 }
