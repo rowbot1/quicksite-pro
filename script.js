@@ -116,3 +116,20 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+// Update offer month dynamically
+const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const currentMonth = months[new Date().getMonth()];
+const currentYear = new Date().getFullYear();
+const offerTitle = document.querySelector('.limited-offer h2');
+if (offerTitle) {
+    offerTitle.textContent = `${currentMonth} ${currentYear} Special Offer`;
+}
+
+// Simple countdown (resets on page load)
+let days = 7;
+const countdownElement = document.getElementById('countdown');
+if (countdownElement) {
+    // Update countdown every day
+    countdownElement.textContent = `${days} days`;
+}
